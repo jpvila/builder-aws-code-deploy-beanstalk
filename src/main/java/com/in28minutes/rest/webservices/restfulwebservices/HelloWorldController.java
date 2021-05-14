@@ -42,7 +42,7 @@ public class HelloWorldController {
 		System.out.println("Es el path raiz");
 		System.out.println("/");
 
-		return "HELLO from Spring Boot! " + dynamoDBBean.getNombre();
+		return "HELLO from Spring Boot en elastic beanstalk! " + dynamoDBBean.getNombre();
 	}
 
 	
